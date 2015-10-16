@@ -1,0 +1,23 @@
+THINGS I NEED
+
+TURN TRACKING:  bar that says player 1 to move or player 2 to move.
+
+1) make each button work.
+  1a before button adds whatever is in the entry field to the front of the word.
+  1b after button adds whatever is in the entry field to the back of the word
+2) check word.
+  gets the current word after every play and checks if that word is in the dictionary. if it is,
+  the player who played the last letter loses, otherwise next player's turn.
+3) CHALLENGE
+    gets a prompt from the person who played the last letter (the challenged player)
+    and check if the prompt contains the word. if it doesn't the challenger wins.
+    if the prompt does contain the word, check it against the dictionary.  if it is present, the
+    challenged player wins, otherwise, the challenger wins.
+
+THINGS IT WOULD BE COOL TO HAVE
+AI.  for every element in dictionary, challenge.  remove ones that fail.
+do mod2 for (total wordlength -playernumber of ai) if answer is 1, reject word.
+pick a random word remaining, play a viable letter in that word.
+
+
+tester array:
